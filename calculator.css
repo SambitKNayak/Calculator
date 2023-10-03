@@ -1,0 +1,72 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d6405e;
+  }
+  
+  /* Style the calculator container */
+  .calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #0a0606;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the calculator display */
+  #display {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: right;
+    padding: 5px;
+  }
+  
+  /* Style the calculator buttons */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style specific buttons differently (e.g., operators) */
+  button.operator {
+    background-color: #f0a834;
+    color: #fff;
+  }
+  
+  button.operator:hover {
+    background-color: #d18e28;
+  }
+  
+  /* Style the equals button */
+  button.equals {
+    background-color: #55c160;
+    color: #fff;
+  }
+  
+  button.equals:hover {
+    background-color: #46a052;
+  }
+  
